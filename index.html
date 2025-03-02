@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBoard</title>
+
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navber-left-container">
+                <img src="assets/logo.png" alt="">
+                <h1>Dev<strong>Board</strong></h1>
+            </div>
+            <div class="navber-right-container">
+                <div>
+                    <img src="assets/checkbox.png" alt="">
+                    <h1 id="checkbox-count">23</h1>
+                </div>
+                <img id="theme-change-button" src="assets/theme-btn.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="main-container">
+            <div class="main-left-container">
+                <div class="main-left-top-container">
+                    <div class="main-left-1">
+                        <div class="image-box"><img src="assets/checkbox.png" alt=""></div>
+                        <div>
+                            <h4>Task Assigned</h4>
+                            <h2 id="task-assigned-count">6</h2>
+                        </div>
+                    </div>
+                    <a href="blog.html" class="main-left-2">
+                        <div>
+                            <img src="assets//board.png" alt="">
+                        </div>
+                        <div>
+                            <h1>Discover Something New Today!</h1>
+                        </div>
+                    </a>
+                    <div class="main-left-3">
+                        <div class="image-box"><img src="assets/calender.png" alt=""></div>
+                        <div>
+                            <h4 id="today-date" >Wed ,Jul 28 2025</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-left-bottom-container">
+                    <div class="task-card">
+                        <button>ShopEase</button>
+                        <h2>Fix Mobile Button Issue </h2>
+                        <div class="p-box">
+                            <p>Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                                and ensure onClick works properly</p>
+                        </div>
+                        <div class="down-box">
+                            <div>
+                                <h4>Deadline</h4>
+                                <h2>21 March 2025</h2>
+                            </div>
+                            <button class="task-completed-button">Completed</button>
+                        </div>
+                    </div>
+                    <div class="task-card">
+                        <button>CloudSync</button>
+                        <h2>Add Dark Mode</h2>
+                        <div class="p-box">
+                            <p>Store the user's preference in localStorage, update CSS variables dynamically, and apply a smooth transition effect.</p>
+                        </div>
+                        <div class="down-box">
+                            <div>
+                                <h4>Deadline</h4>
+                                <h2>21 March 2025</h2>
+                            </div>
+                            <button class="task-completed-button">Completed</button>
+                        </div>
+                    </div>
+                    <div class="task-card">
+                        <button>SwiftPay</button>
+                        <h2>Optimize Home page</h2>
+                        <div class="p-box">
+                            <p>Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                                and ensure onClick works properly</p>
+                        </div>
+                        <div class="down-box">
+                            <div>
+                                <h4>Deadline</h4>
+                                <h2>21 March 2025</h2>
+                            </div>
+                            <button class="task-completed-button">Completed</button>
+                        </div>
+                    </div>
+                    <div class="task-card">
+                        <button>Meta</button>
+                        <h2>Add new emoji 🤲</h2>
+                        <div class="p-box">
+                            <p>Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                                and ensure onClick works properly</p>
+                        </div>
+                        <div class="down-box">
+                            <div>
+                                <h4>Deadline</h4>
+                                <h2>21 March 2025</h2>
+                            </div>
+                            <button class="task-completed-button">Completed</button>
+                        </div>
+                    </div>
+                    <div class="task-card">
+                        <button>Google LLC</button>
+                        <h2>Integrate OpenAI API</h2>
+                        <div class="p-box">
+                            <p>Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                                and ensure onClick works properly</p>
+                        </div>
+                        <div class="down-box">
+                            <div>
+                                <h4>Deadline</h4>
+                                <h2>21 March 2025</h2>
+                            </div>
+                            <button class="task-completed-button">Completed</button>
+                        </div>
+                    </div>
+                    <div class="task-card">
+                        <button>Glassdoar</button>
+                        <h2>Improve Job searching</h2>
+                        <div class="p-box">
+                            <p>Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                                and ensure onClick works properly</p>
+                        </div>
+                        <div class="down-box">
+                            <div>
+                                <h4>Deadline</h4>
+                                <h2>21 March 2025</h2>
+                            </div>
+                            <button class="task-completed-button">Completed</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-right-container">
+                <div class="main-right-top-container">
+                    <div>
+                        <img src="assets/activity.png" alt="">
+                        <h1>Activity Log</h1>
+                    </div>
+                    <div>
+                        <button id="clear-history-button">Clear History</button>
+                    </div>
+                </div>
+                <div id="main-right-bottom-container" class="main-right-bottom-container">
+                
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./js/dev.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBoard</title>
+
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navber-left-container">
+                <img src="assets/logo.png" alt="">
+                <h1>Dev<strong>Board</strong></h1>
+            </div>
+            <div class="navber-right-container">
+                <a href="index.html" id="back-to-desk">Back to Desk</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="faq-section">
+            <h1>Blogs</h1>
+            <div class="faq-card">
+                <div>
+                    <h3>Question-1: What are the different ways to select an element in the DOM?</h3>
+                </div>
+                <div>
+                    <p>1. getElementById() <br>2. getElementsByClassName() <br>3. querySelector()<br>4. querySelectorAll() </p>
+                </div>
+            </div>
+            <div class="faq-card">
+                <div>
+                    <h3>Question-2: What is the difference between innerHTML, innerText, and textContent ?</h3>
+                </div>
+                <div>
+                    <p>1. We can get the content inside any tag on an HTML page using innerHTML. <br>
+                       2. We can get the text inside any tag on an HTML page using innerText.<br>
+                       3. We can get the text content inside any tag on an HTML page using textContent. That means, if there are any tags within the element, they won't be included, only the plain text will be retrieved.
+                    </p>
+                </div>
+            </div>
+            <div class="faq-card">
+                <div>
+                    <h3>Question-3: What is event delegation in the DOM?</h3>
+                </div>
+                <div>
+                    <p>An event listener is added to the parent element, and it can propagate to the child elements as well.</p>
+                </div>
+            </div>
+            <div class="faq-card">
+                <div>
+                    <h3>Question-4: What is event bubbling in the DOM?</h3>
+                </div>
+                <div>
+                    <p>An event listener is added to the child element, and it propagates step by step through the parent elements until it reaches the document.</p>
+                </div>
+            </div>
+            <div class="faq-card">
+                <div>
+                    <h3>uestion-5: How do you create, add, and remove elements using JavaScript?</h3>
+                </div>
+                <div>
+                    <p> You can create any element using document.createElement() and add it to the HTML page using appendChild(). Additionally, you can select any element using a selector and remove it using the remove() method.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
