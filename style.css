@@ -11,7 +11,7 @@ body{
 .navbar{
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 95%;
     margin: 10px auto;
     border-radius: 16px;
     background-color: #ffffff;
@@ -62,13 +62,13 @@ body{
 
 .main-container{
     display: flex;
-    gap: 20px;
-    width: 80%;
-    margin: 20px auto;
-    height: 84vh;
+    gap: 5px;
+    width: 95%;
+    margin: 10px auto;
+    height: 100%;
 }
 .main-left-container{
-    background-color: #ffffff;
+    background: #ffffff;
     width: 70%;
     border-radius: 16px;
 }
@@ -126,7 +126,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    width: 30%;
+    width: 20%;
     background-color: #F4F7FF;
     padding: 10px 20px;
     border-radius: 16px;
@@ -188,8 +188,8 @@ body{
 }
 .main-left-bottom-container .task-card p{
     color: rgb(0, 0, 0);
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 12px;
+    font-weight: 300;
     opacity: 0.5;
 }
 .main-left-bottom-container .task-card .down-box{
