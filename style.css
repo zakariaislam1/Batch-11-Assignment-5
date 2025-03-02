@@ -287,10 +287,11 @@ body{
 .faq-card{
     margin-top: 20px;
     background-color: #ffffff;
+    border-radius: 10px;
 }
 .faq-card div{
     padding: 20px;
 }
 .faq-card div:nth-child(1){
-    border-bottom: 2px dashed rgb(90, 88, 156);
+    border-bottom: 2px dashed steelblue;
 }
